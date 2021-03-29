@@ -4,11 +4,14 @@
   "description": "Personal website.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "snowpack dev",
+    "build": "snowpack build"
   },
   "author": "Chris Parsons <chris@chris-parsons.com>",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "@snowpack/plugin-run-script": "^2.3.0",
+    "snowpack": "^3.1.2"
   }
 }
