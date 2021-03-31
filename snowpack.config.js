@@ -4,9 +4,11 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    _site: { url: '/', static: true, resolve: false },
+    _site: { url: '/', static: true },
+    'src/styles': { url: '/styles' },
   },
   plugins: [
+    '@snowpack/plugin-postcss',
     [
       '@snowpack/plugin-run-script',
       {
@@ -19,7 +21,8 @@ module.exports = {
     /* ... */
   },
   devOptions: {
-    /* ... */
+    // Eleventy updates multiple files at once, so add a 300ms delay before we trigger a browser update
+    hmrDelay: 300,
   },
   buildOptions: {
     clean: true,

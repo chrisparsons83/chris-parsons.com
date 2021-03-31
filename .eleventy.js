@@ -3,5 +3,6 @@ module.exports = (config) => {
     dir: {
       input: './src',
     },
+    passthroughFileCopy: true,
   };
 };
