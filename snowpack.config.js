@@ -27,4 +27,9 @@ module.exports = {
   buildOptions: {
     clean: true,
   },
+  optimize: {
+    bundle: true,
+    minify: true,
+    target: 'es2018',
+  },
 };
