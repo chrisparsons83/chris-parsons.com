@@ -2,7 +2,10 @@
 @tailwind components;
 
 body {
-  background-color: #33c;
+  background-image: radial-gradient(at top left, #f0ace0, transparent),
+    radial-gradient(at top right, #ffa4b2, transparent),
+    radial-gradient(at bottom left, #a7d3f2, transparent);
+  min-height: 1000vw;
 }
 
 @tailwind utilities;
