@@ -4,8 +4,8 @@
   "description": "Personal website.",
   "main": "index.js",
   "scripts": {
-    "dev": "snowpack dev",
-    "build": "snowpack build"
+    "dev": "NODE_ENV=development snowpack dev",
+    "build": "NODE_ENV=production snowpack build"
   },
   "author": "Chris Parsons <chris@chris-parsons.com>",
   "license": "ISC",
