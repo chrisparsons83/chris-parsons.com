@@ -1,11 +1,16 @@
 @tailwind base;
 @tailwind components;
 
+html,
 body {
-  background-image: radial-gradient(at top left, #f0ace0, transparent),
-    radial-gradient(at top right, #ffa4b2, transparent),
-    radial-gradient(at bottom left, #a7d3f2, transparent);
-  min-height: 1000vw;
+  height: 100%;
+}
+
+body {
+  background-image: radial-gradient(at top left, #191654 0%, transparent 100%),
+    radial-gradient(at top right, #323848 0%, transparent 100%),
+    radial-gradient(at bottom left, #1d2671 0%, transparent 100%),
+    radial-gradient(at bottom right, #41295a 0%, transparent 100%);
 }
 
 @tailwind utilities;
