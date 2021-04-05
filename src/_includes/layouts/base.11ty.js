@@ -11,8 +11,8 @@ exports.render = function (data) {
     <link rel="stylesheet" type="text/css" href="/styles/main.css">
     <title>${data.title}</title>
   </head>
-  <body class="text-white my-8">
-    <div class="container mx-auto grid grid-cols-4 gap-8">
+  <body class="text-white m-4 md:m-8">
+    <div class="container mx-auto grid grid-cols-4 gap-4 md:gap-8">
       <header class="col-span-4">
         <img src="/images/chris-parsons.svg">
       </header>
