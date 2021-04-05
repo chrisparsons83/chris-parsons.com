@@ -6,6 +6,7 @@ module.exports = {
   mount: {
     _site: { url: '/', static: true },
     'src/styles': { url: '/styles' },
+    'src/images': { url: '/images' },
   },
   plugins: [
     '@snowpack/plugin-postcss',
