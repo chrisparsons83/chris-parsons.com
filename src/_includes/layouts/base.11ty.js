@@ -20,10 +20,8 @@ exports.render = function (data) {
           </div>
 
           <div id="hamburgerMenu" class="md:hidden">
-            <svg class="fill-current w-6 h-6" viewBox="0 0 100 70" width="24" height="24">
-              <rect width="100" height="10"></rect>
-              <rect y="30" width="100" height="10"></rect>
-              <rect y="60" width="100" height="10"></rect>
+            <svg class="stroke-current w-8 h-8" viewBox="0 0 10 8" width="32">
+              <path d="M1 1h8M1 4h 8M1 7h8" stroke-width="1" stroke-linecap="round"/>
             </svg>
           </div>
         </div>
