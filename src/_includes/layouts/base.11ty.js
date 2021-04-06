@@ -8,6 +8,7 @@ exports.render = function (data) {
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chris Parsons | Javascript Developer in Seattle, Washington">
     <link rel="stylesheet" type="text/css" href="/styles/main.css" media="screen">
     <title>${data.title}</title>
   </head>
@@ -20,7 +21,7 @@ exports.render = function (data) {
           </div>
 
           <div id="hamburgerMenu" class="md:hidden">
-            <svg class="stroke-current w-8 h-8" viewBox="0 0 10 8" width="32">
+            <svg class="stroke-current w-6 h-6" viewBox="0 0 10 8" width="32">
               <path d="M1 1h8M1 4h 8M1 7h8" stroke-width="1" stroke-linecap="round"/>
             </svg>
           </div>
