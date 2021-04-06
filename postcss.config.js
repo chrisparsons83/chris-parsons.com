@@ -7,6 +7,7 @@ module.exports = {
     process.env.NODE_ENV === 'production' &&
       purgecss({
         content: ['./**/*.html'],
+        defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
       }),
   ],
 };
