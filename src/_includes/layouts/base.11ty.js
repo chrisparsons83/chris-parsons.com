@@ -12,7 +12,7 @@ exports.render = function (data) {
     <link rel="stylesheet" type="text/css" href="/styles/main.css" media="screen">
     <title>${data.title}</title>
   </head>
-  <body class="text-white m-4 md:m-8">
+  <body class="bg-fixed text-white m-4 md:m-8">
     <div class="container mx-auto grid grid-cols-4 gap-4 md:gap-8">
       <header class="col-span-4 md:flex-row justify-between">
         <div id="logo" class="w-2/3 max-w-xs">
@@ -24,7 +24,7 @@ exports.render = function (data) {
           <a href="/jeopardy">Jeopardy</a>
         </nav>
       </header>
-      <main class="col-span-4 md:col-span-3">
+      <main class="col-span-4 md:col-span-3 prose lg:prose-xl">
         ${data.content}
       </main>
       <aside class="col-span-4 md:col-span-1">
