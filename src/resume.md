@@ -6,18 +6,17 @@ layout: layouts/base.11ty.js
 
 ## Development Skills
 
-- PHP
-- Javascript (Front and backend)
-- C#
-- SQL Server
-- MySQL
-- PostgresQL
-- XHTML/CSS
-- Drupal CMS
+- Typescript/Javascript
+  - React/Angular Frontend
+  - Express/Hapi Backend
+- SQL (MySQL, Postgres, MS SQL)
+- HTML/CSS
+- PHP/Drupal 7/Wordpress
+- C#, SSIS
 
 ## Experience
 
-### PCC Natural Markets - Developer/Programmer Analyst II
+### PCC Community Markets - Developer/Programmer Analyst II
 
 _December 2014 — Present_
 
