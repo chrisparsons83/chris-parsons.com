@@ -9,8 +9,14 @@ exports.render = function (data) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chris Parsons | Javascript Developer in Seattle, Washington">
-    <link rel="stylesheet" type="text/css" href="/styles/main.css" media="screen">
+    
     <title>${data.title}</title>
+
+    <link rel="stylesheet" type="text/css" href="/styles/main.css" media="screen">
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   </head>
   <body class="bg-fixed text-gray-300 m-4 md:m-8">
     <div class="container mx-auto grid grid-cols-4 gap-8 md:gap-16">
