@@ -26,6 +26,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
+      sans: ['Raleway', 'sans-serif'],
       serif: ['Kiwi Maru', 'serif'],
     },
     extend: {
