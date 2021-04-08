@@ -24,7 +24,7 @@ exports.render = function (data) {
           <a href="/jeopardy">Jeopardy</a>
         </nav>
       </header>
-      <main class="col-span-4 md:col-span-3 prose lg:prose-xl">
+      <main class="col-span-4 md:col-span-3 prose md:prose-lg">
         ${data.content}
       </main>
       <aside class="col-span-4 md:col-span-1">
