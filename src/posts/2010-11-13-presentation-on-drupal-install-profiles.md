@@ -1,3 +1,8 @@
+---
+tags: post
+layout: layouts/base.11ty.js
+---
+
 # Presentation on Drupal Install Profiles
 
 I recently gave a presentation on Install Profiles in Drupal 6 and 7 at the Broward County Drupal Users Group. I use Install Profiles in conjunction with Drush Make in order to speed up development times, and automate as much repeatable steps as we can so we can focus on the custom work each website needs.

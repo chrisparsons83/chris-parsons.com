@@ -1,3 +1,8 @@
+---
+tags: post
+layout: layouts/base.11ty.js
+---
+
 # Five Things I Wish I Knew When I Started Using Drupal
 
 2010-01-24 08:45:23 -0800

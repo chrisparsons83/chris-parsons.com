@@ -1,3 +1,8 @@
+---
+tags: post
+layout: layouts/base.11ty.js
+---
+
 # If You Have FAQs, You're Doing Something Wrong
 
 2008-11-20 12:03:25 -0800

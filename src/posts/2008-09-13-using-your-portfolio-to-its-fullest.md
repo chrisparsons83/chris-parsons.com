@@ -1,3 +1,8 @@
+---
+tags: post
+layout: layouts/base.11ty.js
+---
+
 # Using Your Portfolio to its Fullest
 
 date: 2008-09-13 17:30:15 -0800
