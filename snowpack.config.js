@@ -30,7 +30,7 @@ module.exports = {
   },
   optimize: {
     bundle: true,
-    entrypoint: "index.html",
+    entrypoint: ["index.html"],
     minify: true,
     target: "es2018",
   },
