@@ -1,5 +1,5 @@
 exports.data = {
-  title: 'Chris Parsons | Javascript Web Developer in Seattle, Washington',
+  title: "Chris Parsons | Javascript Web Developer in Seattle, Washington",
 };
 
 exports.render = function (data) {
@@ -23,7 +23,9 @@ exports.render = function (data) {
     <div class="container mx-auto grid grid-cols-4 gap-8 md:gap-16">
       <header class="col-span-4 justify-between space-y-2 flex flex-col md:flex-row">
         <div id="logo" class="w-2/3 max-w-xs md:flex-initial">
-          <img src="/images/chris-parsons.svg" width="557" height="63" alt="Logo for Chris Parsons">
+          <a href="/">
+            <img src="/images/chris-parsons.svg" width="557" height="63" alt="Logo for Chris Parsons">
+          </a>
         </div>
         <nav role="navigation" class="min-h-32 space-x-2 md:flex-initial md:self-center md:space-x-6 md:text-xl">
           <a href="/">Posts</a>
