@@ -4,17 +4,17 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    _site: { url: '/', static: true },
-    'src/styles': { url: '/styles' },
-    'src/images': { url: '/images' },
+    _site: { url: "/", static: true },
+    "src/styles": { url: "/styles" },
+    "src/images": { url: "/images" },
   },
   plugins: [
-    '@snowpack/plugin-postcss',
+    "@snowpack/plugin-postcss",
     [
-      '@snowpack/plugin-run-script',
+      "@snowpack/plugin-run-script",
       {
-        cmd: 'eleventy',
-        watch: '$1 --watch',
+        cmd: "eleventy",
+        watch: "$1 --watch",
       },
     ],
   ],
@@ -30,7 +30,8 @@ module.exports = {
   },
   optimize: {
     bundle: true,
+    entrypoint: "index.html",
     minify: true,
-    target: 'es2018',
+    target: "es2018",
   },
 };
