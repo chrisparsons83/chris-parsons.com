@@ -26,7 +26,7 @@ exports.render = function (data) {
         </div>
         <nav role="navigation" class="min-h-32 space-x-2 md:flex-initial md:self-center md:space-x-6 md:text-xl">
           <a href="/">Posts</a>
-          <a href="/resume">Resume</a>
+          <a href="/resume">Résumé</a>
           <a href="/jeopardy">Jeopardy</a>
         </nav>
       </header>
