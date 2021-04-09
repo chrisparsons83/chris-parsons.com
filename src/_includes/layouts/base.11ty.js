@@ -17,6 +17,7 @@ exports.render = function (data) {
     <link rel="icon" href="/favicon.ico">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
   </head>
   <body class="bg-fixed text-gray-300 m-4 md:m-8">
     <div class="container mx-auto grid grid-cols-4 gap-8 md:gap-16">
