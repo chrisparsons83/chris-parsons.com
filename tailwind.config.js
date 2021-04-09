@@ -1,20 +1,20 @@
 typographyOverrides = (theme) => ({
   DEFAULT: {
     css: {
-      color: theme('colors.gray.200'),
+      color: theme("colors.gray.200"),
       h1: {
-        color: theme('colors.gray.200'),
-        fontFamily: theme('fontFamily.serif').join(', '),
+        color: theme("colors.gray.200"),
+        fontFamily: theme("fontFamily.serif").join(", "),
         fontWeight: 400,
       },
       h2: {
-        color: theme('colors.gray.200'),
-        fontFamily: theme('fontFamily.serif').join(', '),
+        color: theme("colors.gray.200"),
+        fontFamily: theme("fontFamily.serif").join(", "),
         fontWeight: 400,
       },
       h3: {
-        color: theme('colors.gray.200'),
-        fontFamily: theme('fontFamily.serif').join(', '),
+        color: theme("colors.gray.200"),
+        fontFamily: theme("fontFamily.serif").join(", "),
         fontWeight: 400,
       },
     },
@@ -22,12 +22,12 @@ typographyOverrides = (theme) => ({
 });
 
 module.exports = {
-  purge: ['./src/**/*.html', './src/**/*.js'],
+  purge: ["./src/**/*.html", "./src/**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['Raleway', 'sans-serif'],
-      serif: ['Kiwi Maru', 'serif'],
+      sans: ["Raleway", "sans-serif"],
+      serif: ["Kiwi Maru", "serif"],
     },
     extend: {
       typography: typographyOverrides,
@@ -36,5 +36,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/aspect-ratio"),
+  ],
 };

@@ -18,7 +18,9 @@ Fun notes:
 
 [J! Archive](https://www.j-archive.com/showgame.php?game_id=3262)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O6MEInPIEUs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="aspect-w-16 aspect-h-9">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O6MEInPIEUs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Day 2: Thursday, March 4th, 2004
 
@@ -30,4 +32,6 @@ Fun notes:
 
 [J! Archive](https://www.j-archive.com/showgame.php?game_id=3267)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/M4Of-cJceVM?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="aspect-w-16 aspect-h-9">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/M4Of-cJceVM?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
