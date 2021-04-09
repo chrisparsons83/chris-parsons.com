@@ -5,6 +5,7 @@ module.exports = (config) => {
   config.addPassthroughCopy('./src/icon-192.png');
   config.addPassthroughCopy('./src/icon-512.png');
   config.addPassthroughCopy('./src/icon.svg');
+  config.addPassthroughCopy('./src/manifest.webmanifest');
 
   return {
     dir: {
