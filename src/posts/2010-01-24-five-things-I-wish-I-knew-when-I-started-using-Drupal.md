@@ -1,11 +1,9 @@
 ---
 tags: post
 layout: layouts/base.11ty.js
+title: Five Things I Wish I Knew When I Started Using Drupal
+date: 2010-01-24 08:45:23
 ---
-
-# Five Things I Wish I Knew When I Started Using Drupal
-
-2010-01-24 08:45:23 -0800
 
 I noticed the other day that my account on Drupal.org is coming up to its three year anniversary, which means I've probably been working with Drupal for four years now. So I took a look back at some of the old Drupal sites I had put together, and like most developers, almost cringed at what I had done to some of those sites. So, with nearly four years under my belt, these are five things I wish I had been doing in 2005, when I started.
 

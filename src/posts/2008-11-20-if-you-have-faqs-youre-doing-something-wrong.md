@@ -1,11 +1,9 @@
 ---
 tags: post
 layout: layouts/base.11ty.js
+title: If You Have FAQs, You're Doing Something Wrong
+date: 2008-11-20 12:03:25
 ---
-
-# If You Have FAQs, You're Doing Something Wrong
-
-2008-11-20 12:03:25 -0800
 
 Frequently Asked Questions, or FAQs, as they're affectionately known, are a staple on the majority of informational and e-commerce websites. You can find them on a wide range of super popular sites, from Newegg to Digg, from Myspace to ABC.
 
