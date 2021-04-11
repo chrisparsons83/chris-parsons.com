@@ -13,7 +13,8 @@ However, most of my friends haven't seen the full videos of my episodes. This se
 Fun notes:
 
 - Yes, I almost swore on my first response. It was great.
-- My Final Jeopardy answer was basically a guess. I could remember a TV ad at the time for Chicago and I could remember a prison cell. I've watched it since, I promise.
+- So the way interviewing works is that before you show up, you fill out a good 12-page questionnaire asking you questions like "bring 5 things to a desert island" and "what's something unusual about you that no one else has done". Then, before your episode, the contestant coordinators will select a few topics from that questionnaire and practice an interview on each one. They then circle the one that is the most interesting for Alex to read, but Alex is allowed to go off and choose anything on the card if he wants. The contestant coordinator and I both decided me talking about eggs was the opposite of interesting, and me talking about tennis was way better. Alex decided to go rogue, and that's why I have probably one of the worst interview topics in _Jeopardy!_ history.
+- My Final Jeopardy answer was basically a guess. I could remember a TV ad at the time for Chicago and I could remember a prison cell. I had no idea about any of the other hints in that Final Jeopardy. I've watched it since, I promise.
 - They tape five episodes in a day, and between the Wednesday and Thursday episodes was the lunch break on the Sony Studios lot. I had so much adrenaline rushing through me for a good 20 minutes after this game that I couldn't even fathom eating, and I've never seen my hands shaking as much as they did then.
 
 [J! Archive](https://www.j-archive.com/showgame.php?game_id=3262)
