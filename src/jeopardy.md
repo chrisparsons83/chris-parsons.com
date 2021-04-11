@@ -3,8 +3,6 @@ title: My Jeopardy! Appearance
 layout: layouts/page.11ty.js
 ---
 
-# My _Jeopardy!_ Appearance
-
 Most people that know me know that I was on _Jeopardy!_ within moments of meeting me. This isn't any of my doing, but without fail, it's very easy to go "Hey, meet my friend Chris, he's my friend that was on _Jeopardy!_". Being born in Florida, I know there are [way](https://www.browardpalmbeach.com/news/346-pound-man-punches-dominos-pizza-guy-for-forgetting-his-garlic-knots-cops-say-6471471) [worse](https://miami.cbslocal.com/2020/07/10/florida-man-iguana-bike-crash/) [things](https://nypost.com/2020/07/23/florida-man-tries-to-evade-arrest-by-cartwheeling-away-from-cops/) that one could be known for, so I'll gladly take this introduction.
 
 However, most of my friends haven't seen the full videos of my episodes. This seems like the most reasonable place to resolve that.
