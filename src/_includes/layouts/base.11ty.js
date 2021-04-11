@@ -44,6 +44,7 @@ exports.render = function (data) {
         ${data.content}
       </main>
       <aside class="col-span-4 md:col-span-1 prose prose-sm">
+        <h2>About Me</h2>
         <p>I'm a web developer located in the Seattle area, focusing on Typescript and Javascript. When not in front of a keyboard, you'll find me flashcarding for trivia or throwing rocks at houses out of the Granite Curling Club in Seattle.</p>
         <p class="flex flex-row space-x-2">
           <a class="flex-none" href="https://github.com/chrisparsons83">
