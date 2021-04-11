@@ -3,7 +3,7 @@ exports.data = {
 };
 
 const title = (title) => {
-  if (title === "") return null;
+  if (title === "") return "";
   return `${title} -`;
 };
 
