@@ -1,5 +1,10 @@
 exports.data = {
-  title: "Chris Parsons | Javascript Web Developer in Seattle, Washington",
+  title: "",
+};
+
+const title = (title) => {
+  if (title === "") return null;
+  return `${title} -`;
 };
 
 exports.render = function (data) {
@@ -8,9 +13,11 @@ exports.render = function (data) {
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chris Parsons | Javascript Developer in Seattle, Washington">
+    <meta name="description" content="Chris Parsons | Javascript Web Developer in Seattle, Washington">
     
-    <title>${data.title}</title>
+    <title>${title(
+      data.title
+    )} Chris Parsons | Javascript Web Developer in Seattle, Washington</title>
 
     <link rel="stylesheet" type="text/css" href="/styles/main.css" media="screen">
 

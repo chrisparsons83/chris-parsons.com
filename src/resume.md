@@ -1,8 +1,7 @@
 ---
-layout: layouts/base.11ty.js
+title: Résumé
+layout: layouts/page.11ty.js
 ---
-
-# Resume
 
 ## Development Skills
 

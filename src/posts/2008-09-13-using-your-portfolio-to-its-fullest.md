@@ -1,11 +1,13 @@
 ---
 tags: post
-layout: layouts/base.11ty.js
+layout: layouts/page.11ty.js
 title: Using Your Portfolio to its Fullest
 date: 2008-09-13 17:30:15
 ---
 
 As your freelancing and studio work progresses, you eventually will have a body of work that you'll be able to pull from in order to woo potential new clients. There is a tendency for all of us to show our entire body of work. This gives the impression of more experience and a wider variety of work, so that potential clients from all areas will be more likely to choose you. However, is that what you really want?
+
+<!-- excerpt -->
 
 I'd be willing to argue that it'd be much easier to get the same work by focusing within a certain area, as opposed to trying a little bit of everything. Not only does it make your job easier (albeit a bit more monotonous), but being a specialist, you'll be able to ask for more money in many situations. Of course, if you specialize in something you enjoy, then it's an added benefit.
 

@@ -7,6 +7,12 @@ module.exports = (config) => {
   config.addPassthroughCopy("./src/icon.svg");
   config.addPassthroughCopy("./src/manifest.webmanifest");
 
+  // Set up excerpts
+  config.setFrontMatterParsingOptions({
+    excerpt: true,
+    excerpt_separator: "<!-- excerpt -->",
+  });
+
   return {
     dir: {
       input: "src",

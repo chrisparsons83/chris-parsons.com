@@ -1,13 +1,15 @@
 ---
 tags: post
-layout: layouts/base.11ty.js
+layout: layouts/page.11ty.js
 title: Five Things I Wish I Knew When I Started Using Drupal
 date: 2010-01-24 08:45:23
 ---
 
 I noticed the other day that my account on Drupal.org is coming up to its three year anniversary, which means I've probably been working with Drupal for four years now. So I took a look back at some of the old Drupal sites I had put together, and like most developers, almost cringed at what I had done to some of those sites. So, with nearly four years under my belt, these are five things I wish I had been doing in 2005, when I started.
 
-## Everything Goes in the Sites Folder.... Everything
+<!-- excerpt -->
+
+## Everything Goes in the Sites Folder... Everything
 
 Those /modules and /themes folder in the root directory are so tempting. They're clear as day, and it makes perfect sense to just put the modules and themes in those folders. That's what they're there for, right? Wait, you're telling me that instead of using those perfectly good folders, I'm supposed to make a /themes and a /modules folder inside /sites/all, or /sites/default, or /sites/example.com?
 

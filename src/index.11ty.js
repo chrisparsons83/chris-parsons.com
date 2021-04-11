@@ -9,12 +9,23 @@ exports.data = {
 };
 
 exports.render = function (data) {
-  console.log(data.pagination.items);
-  return `<ul>
+  return `<div class="space-y-16">
     ${data.pagination.items
       .map((post) => {
-        return `<li> ${post.data.title} </li>`;
+        return `
+        <article>
+          <h1>
+            <a href="${post.url}">${post.data.title}</a>
+          </h1>
+          <section>
+            ${post.data.page.excerpt}
+          </section>
+          <p class="mt-4">
+            <a href="${post.url}">Continue Reading</a>
+          </p>
+        </article>
+      `;
       })
       .join("\n")}
-  </ul>`;
+  </div>`;
 };

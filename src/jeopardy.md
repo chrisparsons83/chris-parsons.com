@@ -1,5 +1,6 @@
 ---
-layout: layouts/base.11ty.js
+title: My Jeopardy! Appearance
+layout: layouts/page.11ty.js
 ---
 
 # My _Jeopardy!_ Appearance
