@@ -7,7 +7,7 @@ layout: layouts/page.11ty.js
 
 - Typescript/Javascript
   - React/Angular Frontend
-  - Express/Hapi Backend
+  - Express/Fastify Backend
 - SQL (MySQL, Postgres, MS SQL)
 - HTML/CSS
 - PHP/Drupal 7/Wordpress
