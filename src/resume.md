@@ -26,7 +26,7 @@ _December 2014 — Present_
 - Online Shopping
 - Reporting/SSIS/Support
 
-## World Adult Kickball Association - Web Developer
+### World Adult Kickball Association - Web Developer
 
 _May 2011 — November 2014_
 
