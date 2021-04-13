@@ -40,7 +40,7 @@ exports.render = function (data) {
           <a href="/jeopardy">Jeopardy!</a>
         </nav>
       </header>
-      <main class="col-span-4 md:col-span-3 prose prose-yellow">
+      <main class="col-span-4 md:col-span-3 prose">
         ${data.content}
       </main>
       <aside class="col-span-4 md:col-span-1 prose prose-sm">
@@ -57,7 +57,7 @@ exports.render = function (data) {
           -->
         </p>
       </aside>
-      <footer class="col-span-4 text-center text-sm">Copyright &copy; Chris Parsons.</footer>
+      <footer class="col-span-4 text-center text-sm mb-8">Copyright &copy; Chris Parsons.</footer>
     </div>
   </body>
 </html>`;

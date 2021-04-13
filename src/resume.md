@@ -19,10 +19,18 @@ layout: layouts/page.11ty.js
 
 _December 2014 — Present_
 
-### World Adult Kickball Association - Web Developer
+- Developed application for holiday reservation system, including a backend web app for staff to be run off of tablets for all stores, as well as an API to be used on the public website, used to handle 10,000 reservations every holiday season.
+- Created system for tracking dividend earned and spent across multiple platforms for 90,000 members, integrating with LOC point of sale and Dynamics 365.
+- Created online membership registration to remove paper-based signup system, integrating with Docusign and Microsoft Dynamics 365.
+- Managed AWS services and spend for company, utilizing Elastic Beanstalk, RDS, EC2, S3, Route 53, and Lambda.
+- Online Shopping
+- Reporting/SSIS/Support
+
+## World Adult Kickball Association - Web Developer
 
 _May 2011 — November 2014_
 
+- Created scheduling system for game reporting of leagues.
 - Developed custom modules for providing reporting data for business processes.
 - Enhanced company blog to help support marketing efforts.
 - Assisted in technical help duties for company-wide support.
