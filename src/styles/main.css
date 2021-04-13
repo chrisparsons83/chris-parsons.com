@@ -37,6 +37,6 @@
     @apply text-custom-green-dark;
   }
   nav > a:hover {
-    @apply text-custom-green-light;
+    @apply text-custom-green-light underline;
   }
 }
