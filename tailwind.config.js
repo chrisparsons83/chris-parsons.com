@@ -11,7 +11,11 @@ typographyOverrides = (theme) => ({
         fontWeight: 400,
       },
       "h1 > a": {
+        color: theme("colors.custom-green.dark"),
         textDecoration: "none",
+      },
+      "h1 > a:hover": {
+        textDecoration: "underline",
       },
       h2: {
         color: theme("colors.custom-green.dark"),
@@ -43,6 +47,12 @@ module.exports = {
     },
     extend: {
       colors: {
+        "custom-orange": {
+          DEFAULT: "#D64E00",
+        },
+        "custom-yellow": {
+          DEFAULT: "#FEC861",
+        },
         "custom-green": {
           light: "#BCE5CA",
           dark: "#81AA88",

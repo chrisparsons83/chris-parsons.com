@@ -16,10 +16,10 @@
 /* Applying Styles */
 @layer base {
   a {
-    @apply text-custom-green-dark;
+    @apply text-custom-yellow;
   }
   a:hover {
-    @apply text-custom-green-light;
+    @apply text-custom-orange;
   }
   body {
     @apply body-gradient;
@@ -27,7 +27,16 @@
 }
 
 @layer components {
+  .continue-reading::after {
+    content: " »";
+  }
   .social-media-icon {
     @apply w-6 h-6 fill-current text-custom-green-dark hover:text-custom-green-light;
+  }
+  nav > a {
+    @apply text-custom-green-dark;
+  }
+  nav > a:hover {
+    @apply text-custom-green-light;
   }
 }

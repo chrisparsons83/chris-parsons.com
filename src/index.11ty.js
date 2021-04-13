@@ -21,7 +21,7 @@ exports.render = function (data) {
             ${post.data.page.excerpt}
           </section>
           <p class="mt-4">
-            <a href="${post.url}">Continue Reading</a>
+            <a href="${post.url}" class="continue-reading">Continue Reading</a>
           </p>
         </article>
       `;
