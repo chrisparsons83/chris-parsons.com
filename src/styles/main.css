@@ -25,3 +25,9 @@
     @apply body-gradient;
   }
 }
+
+@layer components {
+  .social-media-icon {
+    @apply w-6 h-6 fill-current text-custom-green-dark hover:text-custom-green-light;
+  }
+}
