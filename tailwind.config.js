@@ -10,6 +10,9 @@ typographyOverrides = (theme) => ({
         fontFamily: theme("fontFamily.serif").join(", "),
         fontWeight: 400,
       },
+      "h1 > a": {
+        textDecoration: "none",
+      },
       h2: {
         color: theme("colors.custom-green.dark"),
         fontFamily: theme("fontFamily.serif").join(", "),

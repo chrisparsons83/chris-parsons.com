@@ -27,7 +27,7 @@ Fun notes:
 Fun notes:
 
 - I have no idea why I went dressier this episode.
-- I almost went true daily double for $10k, and got spooked by muskellunge. I talked myself out of it, and I knew exactly what an archaeopteryx was, which is why I sounded annoyed.
+- I almost went true daily double for $10k, and got spooked by muskellunge. I talked myself out of it, and I knew exactly what an archaeopteryx was, which is why I sounded annoyed. I was, indeed, annoyed.
 - Matt asked me if I wanted to go out drinking after the last episode taped since we both had all of the sudden won a fair amount of money. I was 20 so I had to pass. Matt, if somehow you ever read this, I would 100% go drinking with you now. You name the place and bar.
 
 [J! Archive](https://www.j-archive.com/showgame.php?game_id=3267)
