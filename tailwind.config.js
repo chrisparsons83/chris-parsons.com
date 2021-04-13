@@ -20,6 +20,12 @@ typographyOverrides = (theme) => ({
         fontFamily: theme("fontFamily.serif").join(", "),
         fontWeight: 400,
       },
+      "> ul > li > *:first-child": {
+        marginTop: 0,
+      },
+      "> ul > li > *:last-child": {
+        marginBottom: 0,
+      },
     },
   },
 });
