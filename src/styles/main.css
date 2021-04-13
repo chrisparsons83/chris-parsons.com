@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap");
 
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-html,
-body {
-  height: 100%;
-}
-
-body {
+/* Custom Classes */
+.body-gradient {
   background-color: #003;
   background-image: radial-gradient(at top left, #08163b 0%, transparent 100%),
     radial-gradient(at bottom left, #292935 0%, transparent 100%),
@@ -15,5 +13,15 @@ body {
     radial-gradient(at top right, #311242 0%, transparent 100%);
 }
 
-@tailwind components;
-@tailwind utilities;
+/* Applying Styles */
+@layer base {
+  a {
+    @apply text-custom-green-dark;
+  }
+  a:hover {
+    @apply text-custom-green-light;
+  }
+  body {
+    @apply body-gradient;
+  }
+}
