@@ -23,8 +23,7 @@ _December 2014 — Present_
 - Created system for tracking dividend earned and spent across multiple platforms for 90,000 members, integrating with LOC point of sale and Dynamics 365.
 - Created online membership registration to remove paper-based signup system, integrating with Docusign and Microsoft Dynamics 365.
 - Managed AWS services and spend for company, utilizing Elastic Beanstalk, RDS, EC2, S3, Route 53, and Lambda.
-- Online Shopping
-- Reporting/SSIS/Support
+- Tech lead for online shopping initiatives, including building integration using SSIS and C# to send data from item management software to multiple online shopping providers.
 
 ### World Adult Kickball Association - Web Developer
 
