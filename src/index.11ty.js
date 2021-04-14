@@ -2,7 +2,7 @@ exports.data = {
   layout: "layouts/base.11ty.js",
   pagination: {
     data: "collections.post",
-    size: 5,
+    size: 3,
     reverse: true,
     alias: "posts",
   },
@@ -27,5 +27,16 @@ exports.render = function (data) {
       `;
       })
       .join("\n")}
+    <nav aria-labelledby="my-pagination" class="text-center">
+      ${
+        data.pagination.href.previous
+          ? `<a href="${data.pagination.href.previous}" class="text-custom-yellow">Previous</a>`
+          : `Previous`
+      } | ${
+    data.pagination.href.next
+      ? `<a href="${data.pagination.href.next}" class="text-custom-yellow">Next</a>`
+      : `Next`
+  }
+    </nav>
   </div>`;
 };

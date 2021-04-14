@@ -2,9 +2,6 @@ typographyOverrides = (theme) => ({
   DEFAULT: {
     css: {
       color: theme("colors.gray.200"),
-      a: {
-        color: theme("colors.red"),
-      },
       h1: {
         color: theme("colors.custom-green.dark"),
         fontFamily: theme("fontFamily.serif").join(", "),
