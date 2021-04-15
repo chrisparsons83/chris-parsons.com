@@ -8,6 +8,17 @@ typographyOverrides = (theme) => ({
       "a:hover": {
         color: theme("colors.custom-orange"),
       },
+      code: {
+        backgroundColor: theme("colors.gray.800"),
+        color: theme("colors.gray.200"),
+        fontWeight: "normal",
+      },
+      "code::before": {
+        content: "",
+      },
+      "code::after": {
+        content: "",
+      },
       h1: {
         color: theme("colors.custom-green.dark"),
         fontFamily: theme("fontFamily.serif").join(", "),
