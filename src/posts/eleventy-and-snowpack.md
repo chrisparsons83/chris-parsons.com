@@ -2,6 +2,7 @@
 tags: post
 layout: layouts/page.11ty.js
 title: Eleventy and Snowpack
+date: 2021-04-14
 ---
 
 I'm pretty certain that anyone that rebuilds their personal site using a Jamstack setup of some sort is contractually obligated to spend the next half dozen posts they write describing their setup. I don't expect to be much different. In my defense... well, I have none. Admittedly, a lot of these posts, as a lot of my writing, tends to be more to help cement concepts personally, as one would do with documentation at a job. If someone else happens to learn something besides me, then all the better! In addition, personal sites are wonderful as they give us the ability to play around with new technology without having to shoehorn it into an existing project, and avoiding having weigh the pros and cons of potential technical debt we could accrue if the new technology ends up not being a long lasting project. I've wanted to try out the new frontend build tools that have been coming out, and I settled with using Snowpack.
