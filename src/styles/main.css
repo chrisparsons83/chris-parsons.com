@@ -30,6 +30,9 @@
   .continue-reading::after {
     content: " »";
   }
+  .post-date {
+    @apply italic mt-3;
+  }
   .social-media-icon {
     @apply w-6 h-6 fill-current text-custom-green-dark hover:text-custom-green-light;
   }

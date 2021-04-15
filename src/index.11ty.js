@@ -17,6 +17,9 @@ exports.render = function (data) {
           <h1>
             <a href="${post.url}">${post.data.title}</a>
           </h1>
+          <p class="post-date">
+            Posted on ${this.postDate(post.data.page.date)}
+          </p>
           <section>
             ${post.data.page.excerpt}
           </section>

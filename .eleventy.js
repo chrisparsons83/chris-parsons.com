@@ -1,3 +1,5 @@
+const { DateTime } = require("luxon");
+
 module.exports = (config) => {
   // Passthrough all of the favicons.
   config.addPassthroughCopy("./src/favicon.ico");
@@ -11,6 +13,11 @@ module.exports = (config) => {
   config.setFrontMatterParsingOptions({
     excerpt: true,
     excerpt_separator: "<!-- excerpt -->",
+  });
+
+  // Add filters
+  config.addFilter("postDate", (dateObject) => {
+    return DateTime.fromJSDate(dateObject).toLocaleString(DateTime.DATE_FULL);
   });
 
   return {
