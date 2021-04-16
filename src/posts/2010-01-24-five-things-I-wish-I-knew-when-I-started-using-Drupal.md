@@ -1,6 +1,6 @@
 ---
 tags: post
-layout: layouts/page.11ty.js
+layout: layouts/post.11ty.js
 title: Five Things I Wish I Knew When I Started Using Drupal
 date: 2010-01-24 08:45:23
 ---

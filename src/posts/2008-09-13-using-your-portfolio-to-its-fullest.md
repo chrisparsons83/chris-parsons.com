@@ -1,6 +1,6 @@
 ---
 tags: post
-layout: layouts/page.11ty.js
+layout: layouts/post.11ty.js
 title: Using Your Portfolio to its Fullest
 date: 2008-09-13 17:30:15
 ---

@@ -1,6 +1,6 @@
 ---
 tags: post
-layout: layouts/page.11ty.js
+layout: layouts/post.11ty.js
 title: Presentation on Drupal Install Profiles
 date: 2008-11-23 10:04:25
 ---

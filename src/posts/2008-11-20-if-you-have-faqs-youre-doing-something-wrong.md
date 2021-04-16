@@ -1,6 +1,6 @@
 ---
 tags: post
-layout: layouts/page.11ty.js
+layout: layouts/post.11ty.js
 title: If You Have FAQs, You're Doing Something Wrong
 date: 2008-11-20 12:03:25
 ---
