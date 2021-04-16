@@ -6,7 +6,7 @@
   "scripts": {
     "clear": "del-cli _site",
     "dev": "NODE_ENV=development snowpack dev",
-    "build": "eleventy && NODE_ENV=production snowpack build"
+    "build": "NODE_ENV=production eleventy && NODE_ENV=production snowpack build"
   },
   "author": "Chris Parsons <chris@chris-parsons.com>",
   "license": "ISC",
