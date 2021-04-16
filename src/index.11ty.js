@@ -30,7 +30,7 @@ exports.render = function (data) {
       `;
       })
       .join("\n")}
-    <nav role="navigation" aria-label="Pagination Navigation" class="text-center">
+    <nav aria-label="Pagination Navigation" class="text-center">
       ${
         data.pagination.href.previous
           ? `<a href="${data.pagination.href.previous}" class="text-custom-yellow" aria-label="Go to Previous Page">Previous</a>`
