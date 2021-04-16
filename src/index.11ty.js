@@ -30,14 +30,14 @@ exports.render = function (data) {
       `;
       })
       .join("\n")}
-    <nav aria-labelledby="my-pagination" class="text-center">
+    <nav role="navigation" aria-label="Pagination Navigation" class="text-center">
       ${
         data.pagination.href.previous
-          ? `<a href="${data.pagination.href.previous}" class="text-custom-yellow">Previous</a>`
+          ? `<a href="${data.pagination.href.previous}" class="text-custom-yellow" aria-label="Go to Previous Page">Previous</a>`
           : `Previous`
       } | ${
     data.pagination.href.next
-      ? `<a href="${data.pagination.href.next}" class="text-custom-yellow">Next</a>`
+      ? `<a href="${data.pagination.href.next}" class="text-custom-yellow" aria-label="Go to Next Page">Next</a>`
       : `Next`
   }
     </nav>
