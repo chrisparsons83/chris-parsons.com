@@ -20,6 +20,13 @@ module.exports = (config) => {
     return DateTime.fromJSDate(dateObject).toLocaleString(DateTime.DATE_FULL);
   });
 
+  // Add shortcode
+  config.addShortcode("goatCounter", () => {
+    return process.env.NODE_ENV === "production"
+      ? '<script data-goatcounter="https://chris-parsons.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
+      : "";
+  });
+
   return {
     dir: {
       input: "src",
