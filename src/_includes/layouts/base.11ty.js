@@ -7,6 +7,12 @@ const title = (title) => {
   return `${title} -`;
 };
 
+const statTracking = () => {
+  return process.env.NODE_ENV === "production"
+    ? '<script data-goatcounter="https://chris-parsons.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
+    : "";
+};
+
 exports.render = function (data) {
   return `<!doctype html>
 <html lang="en">
@@ -15,10 +21,7 @@ exports.render = function (data) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chris Parsons | Javascript Web Developer in Seattle, Washington">
 
-    ${
-      process.env.NODE_ENV === "production" &&
-      '<script data-goatcounter="https://chris-parsons.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
-    }
+    ${statTracking()}
     
     <title>${title(
       data.title
