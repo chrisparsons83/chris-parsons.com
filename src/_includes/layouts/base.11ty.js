@@ -14,6 +14,11 @@ exports.render = function (data) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chris Parsons | Javascript Web Developer in Seattle, Washington">
+
+    ${
+      process.env.NODE_ENV === "production" &&
+      '<script data-goatcounter="https://chris-parsons.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
+    }
     
     <title>${title(
       data.title
