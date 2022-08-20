@@ -9,7 +9,7 @@ So I've been using a lot of [Remix](https://remix.run/) the past year on my pers
 
 <!-- excerpt -->
 
-# The problem I was running into
+## The problem I was running into
 
 I am managing a multi-year data repository. Most people care about the current year, but looking at past years is also important. So let's say I have a yearly TPS report that I'd expect with the following structure:
 
@@ -21,7 +21,7 @@ I am managing a multi-year data repository. Most people care about the current y
 ..and so on
 ```
 
-Now, I'd love to link to /reports/tps and have the person load up the 2022 reports without having a redirect to /reports/tps/2022. This is mainly a style choice, to be honest, the redirect works fine in most cases, but why worry about a redirect?
+Now, I'd love to link to `/reports/tps` and have the person load up the 2022 reports without having a redirect to `/reports/tps/2022`. This is mainly a style choice, to be honest, the redirect works fine in most cases, but why worry about a redirect?
 
 ## My usual methods of solving this
 
@@ -37,7 +37,7 @@ I could do this, but then my code is in two places. Sure, fine, two places isn't
 
 My next thought was "well, maybe we don't need that pesky index file, and I can just look at the `$year` parameter, and if it's empty, just assign the current year. This does work for `/reports/tps/index/` but fails when I just have `/ports/tps`; it does not run that $year.tsx loader.
 
-# The actual solution: a single splat!
+## The actual solution: a single splat!
 
 There's this concept of [splats](https://remix.run/docs/en/v1/guides/routing#splats) in routing, which basically will match any value in the URL for the rest of the URL. They're great for 404 pages, but turns out, they work well for this too. Basically, it doesn't just match a segment of the path between slashes, it actually just grabs the entire thing. Splats are made by creating a `$.tsx` file.
 
