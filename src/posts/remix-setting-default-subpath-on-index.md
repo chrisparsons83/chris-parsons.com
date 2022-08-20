@@ -1,13 +1,11 @@
 ---
 tags: post
 layout: layouts/post.11ty.js
-title: Setting default path parameters in Remix
+title: Setting Default Path Parameters in Remix
 date: 2022-08-19
 ---
 
-So I've been using a lot of [Remix](https://remix.run/) the past year on my personal projects, and it is by far the most productive I've ever been for actually getting projects done. I've gone plenty of years without finishing a single side project (as we all have) but in the past year, I think I'm actually going to get two separate ones across the line.
-
-I'm going to try to write more about solving these little problems as I come across them in Remix because they tend to actually be little problems and not "little" problems, and it's a small thing I can do in return for a framework that has honestly brought me a lot of joy in the past year. For instance, tonight I ran across a
+So I've been using a lot of [Remix](https://remix.run/) the past year on my personal projects, and it is by far the most productive I've ever been for actually getting projects done. I've gone plenty of years without finishing a single side project (as we all have) but in the past year, I think I'm actually going to get two separate ones across the line. I love that it seems like little problems in Remix are often just little problems and not "little problems", including my dive into optional URL path parameters tonight.
 
 <!-- excerpt -->
 
