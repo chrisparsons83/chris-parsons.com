@@ -6,18 +6,26 @@ layout: layouts/page.11ty.js
 ## Development Skills
 
 - Typescript/Javascript
-  - React/Angular Frontend
+  - React Frontend (Remix, NextJS, React Native)
   - Express/Fastify Backend
 - SQL (MySQL, Postgres, MS SQL)
+- GraphQL
 - HTML/CSS
 - PHP/Drupal 7/Wordpress
 - C#, SSIS
 
 ## Experience
 
+### Convoy - Software Engineer, Frontend
+
+_November 2021 - Present_
+
+- Improved on carrier-facing web application for drivers, including ability to request detention and view facility ratings.
+- Developed functionality improvements on carrier mobile application geared towards improving zero-state scenes for new drivers for a better onboarding experience.
+
 ### PCC Community Markets - Developer/Programmer Analyst II
 
-_December 2014 — Present_
+_December 2014 — October 2021_
 
 - Developed application for holiday reservation system, including a backend web app for staff to be run off of tablets for all stores, as well as an API to be used on the public website, used to handle 10,000 reservations every holiday season.
 - Created system for tracking dividend earned and spent across multiple platforms for 90,000 members, integrating with LOC point of sale and Dynamics 365.
