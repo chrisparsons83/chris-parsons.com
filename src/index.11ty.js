@@ -1,3 +1,5 @@
+var md = require("markdown-it")();
+
 exports.data = {
   layout: "layouts/base.11ty.js",
   pagination: {
@@ -21,7 +23,7 @@ exports.render = function (data) {
             Posted on ${this.postDate(post.data.page.date)}
           </p>
           <section>
-            ${post.data.page.excerpt}
+            ${md.render(post.data.page.excerpt)}
           </section>
           <p class="mt-4">
             <a href="${post.url}" class="continue-reading">Continue Reading</a>
