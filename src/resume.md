@@ -18,10 +18,11 @@ layout: layouts/page.11ty.js
 
 ### Convoy - Software Engineer, Frontend
 
-_November 2021 - Present_
+_November 2021 - October 2022_
 
-- Improved on carrier-facing web application for drivers, including ability to request detention and view facility ratings.
-- Developed functionality improvements on carrier mobile application geared towards improving zero-state scenes for new drivers for a better onboarding experience.
+- Created feature for dispatchers to request detention on behalf of themselves or their drivers from the company web portal, improving efficiency at drop off and pick up time.
+- Added ability for drivers to view and see their status from the app when they are currently suspended or missing documents, which reduced customer service hours and allowed drivers to be proactive and fix problems quicker, getting them back on the road faster.
+- Improved zero-state screens on mobile app such as current bids, pending jobs, and saved searches to increase interaction with the app and drive more intents, leading to a better new user experience.
 
 ### PCC Community Markets - Developer/Programmer Analyst II
 
