@@ -15,7 +15,7 @@ Honestly, if you're keeping it in the fridge, I just feed it the day before I pl
 If it's been in the fridge, you'll probably want to do this the day before. Take it out of the fridge and give it a feeding, and then let it just sit on the counter. It should double in volume in 12-24 hours (maybe faster if you've been using it often).
 
 ## Quick Recipe
-I really like King Arthur for bread stuff, so instead of below, you could follow https://www.youtube.com/watch?v=UL6ogX38NcY for a recipe instead of below, or incorporate bits and pieces of both.
+I really like King Arthur for bread stuff, so instead of below, you could follow this (pain de campagne recipe)[https://www.youtube.com/watch?v=UL6ogX38NcY] instead of below, or incorporate bits and pieces of both.
 
 - 100g sourdough starter
 - 200g water
