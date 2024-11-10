@@ -9,7 +9,7 @@ This is a work in progress until this message no longer exists. I doubt I'll eve
 So I just keep it in the fridge with the lid on. It can stay in there a LONG time being ignored. We're talking months. As long as it doesn't start getting pink on top of it, it's totally fine. If there's a black-ish liquid on top, that's just alcohol. You can pour it out, it's fine.
 
 ## Feeding
-Honestly, if you're keeping it in the fridge, I just feed it the day before I plan on using it, but more responsible people will feed it every 1-2 weeks. This involves mixing in equal parts by weight of flour and water.
+Honestly, if you're keeping it in the fridge, I just feed it the day before I plan on using it, but more responsible people will feed it every 1-2 weeks. This involves mixing in equal parts by weight of flour and water. Usually I'm starting from around 100g of leftover starter (either from splitting off starter or just straight up using it) and then adding 100g of flour and 100g of water. I generally work from a quart mason jar, so you can scale appropriately. The amount of leftover starter doesn't really matter, but the flour/water added should be equal to each other. It doesn't need to be equal to the amount of leftover starter.
 
 ## Getting ready to use
 If it's been in the fridge, you'll probably want to do this the day before. Take it out of the fridge and give it a feeding, and then let it just sit on the counter. It should double in volume in 12-24 hours (maybe faster if you've been using it often).
