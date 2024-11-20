@@ -16,6 +16,15 @@ layout: layouts/page.11ty.js
 
 ## Experience
 
+### Extrahop - Software Engineer II, Frontend
+
+_February 2023 – Present_
+
+- Added integration capabilities so that users can link other cybersecurity providers and services they currently use to increase user interaction within the product, and make it easier for users to be able to track down current issues.
+- Created bulk management of security threat detections so users can handle multiple threat detections at once, streamlining their ability to manage their current issues.
+- Integrated AI record search with our backend to make it easier for users to search for network activity in plain language text and create complex filters with plain language.
+
+
 ### Convoy - Software Engineer, Frontend
 
 _November 2021 - October 2022_
